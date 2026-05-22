@@ -245,38 +245,21 @@ Berdasarkan hasil survei, mayoritas responden dalam penelitian ini adalah peremp
 Mayoritas responden berasal dari semester 4 sebanyak 26 responden atau 76,5%. Hal ini menunjukkan bahwa responden didominasi oleh mahasiswa tingkat menengah yang sudah cukup familiar menggunakan Google Scholar dalam kegiatan akademik.
 
 ---
+## Analisis Mean dan Standard Deviation
 
-## Analisis Mean
+| Variabel | Mean | Standard Deviation |
+|---|---|---|
+| x1 | 4.12 | 0.64 |
+| x2 | 3.74 | 0.75 |
+| x3 | 4.03 | 0.72 |
+| x4 | 3.44 | 0.70 |
+| x5 | 3.65 | 0.73 |
+| x6 | 4.00 | 0.65 |
+| y | 3.79 | 0.73 |
 
-| Variabel | Mean |
-|---|---|
-| x1 | 4.12 |
-| x2 | 3.74 |
-| x3 | 4.03 |
-| x4 | 3.44 |
-| x5 | 3.65 |
-| x6 | 4.00 |
-| y | 3.79 |
+Hasil mean menunjukkan bahwa seluruh variabel memiliki nilai rata-rata di atas 3 sehingga responden cenderung memberikan penilaian positif terhadap penggunaan Google Scholar. Variabel x1 memiliki nilai mean tertinggi yang menunjukkan bahwa Google Scholar dinilai mudah diakses oleh mahasiswa.
 
-Hasil mean menunjukkan bahwa seluruh variabel memiliki nilai rata-rata di atas 3 sehingga responden cenderung memberikan penilaian positif terhadap penggunaan Google Scholar. Variabel x1 memiliki nilai tertinggi yang menunjukkan bahwa Google Scholar dinilai mudah diakses oleh mahasiswa.
-
----
-
-## Standard Deviation
-
-| Variabel | Standard Deviation |
-|---|---|
-| x1 | 0.64 |
-| x2 | 0.75 |
-| x3 | 0.72 |
-| x4 | 0.70 |
-| x5 | 0.73 |
-| x6 | 0.65 |
-| y | 0.73 |
-
-Nilai standar deviasi yang relatif kecil menunjukkan bahwa jawaban responden cenderung homogen atau tidak terlalu bervariasi.
-
----
+Sementara itu, nilai standard deviation yang relatif kecil menunjukkan bahwa jawaban responden cenderung homogen atau tidak terlalu bervariasi.
 
 ## Grafik Distribusi Responden
 
@@ -321,6 +304,20 @@ w = 3,401
 Hasil ini menunjukkan bahwa terdapat ketidakseimbangan proporsi sampel sehingga pembobotan diperlukan agar hasil estimasi lebih representatif terhadap populasi.
 
 ---
+## Perbandingan Estimasi
+
+Perbandingan estimasi dilakukan untuk melihat perbedaan hasil antara naive estimation dan weighting sederhana dalam mengestimasi tingkat kepuasan mahasiswa terhadap penggunaan Google Scholar.
+
+| Metode | Hasil |
+|---|---|
+| Naive Estimation | 76,47% |
+| Weighting Sederhana | 3,401 |
+
+Berdasarkan hasil analisis, naive estimation menunjukkan bahwa sebesar 76,47% mahasiswa merasa puas terhadap penggunaan Google Scholar dalam pencarian jurnal ilmiah. Sementara itu, hasil weighting sederhana sebesar 3,401 menunjukkan adanya ketidakseimbangan distribusi responden berdasarkan jenis kelamin.
+
+Perbedaan tersebut menunjukkan bahwa distribusi sampel yang tidak seimbang dapat memengaruhi hasil estimasi penelitian. Oleh karena itu, weighting digunakan untuk membantu memperoleh hasil estimasi yang lebih representatif terhadap populasi sebenarnya.
+
+------
 ## rumus slovin
 Diketahui:
 - N = 154
