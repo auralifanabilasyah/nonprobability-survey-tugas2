@@ -288,7 +288,7 @@ Sementara itu, nilai standard deviation yang relatif kecil menunjukkan bahwa jaw
 
 ### Grafik Jenis Kelamin
 
-![Grafik Gender](output/grafik-distribusi-jenis-kelamin.png)
+![Grafik Gender](grafik distribusi jenis kelamin)
 
 Grafik menunjukkan bahwa jumlah responden perempuan lebih mendominasi dibandingkan laki-laki.
 
@@ -296,7 +296,7 @@ Grafik menunjukkan bahwa jumlah responden perempuan lebih mendominasi dibandingk
 
 ### Grafik Semester
 
-![Grafik Semester](output/grafik-distribusi-semester.png)
+![Grafik Semester](grafik distribusi semester)
 
 Grafik menunjukkan bahwa mayoritas responden berasal dari semester 4.
 
@@ -342,7 +342,7 @@ Perbedaan tersebut menunjukkan bahwa distribusi sampel yang tidak seimbang dapat
 
 ### Hasil Grafik
 
-![Grafik Estimasi](output/grafik-perbandingan-hasil-estimasi.png)
+![Grafik Estimasi](grafik-perbandingan-hasil-estimasi.png)
 
 ### Pembahasan
 
