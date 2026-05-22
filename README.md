@@ -342,19 +342,48 @@ Berdasarkan hasil perhitungan menggunakan rumus Slovin diperoleh jumlah sampel m
 
 ## Uji Validitas
 
-Uji validitas dilakukan untuk mengetahui apakah item pertanyaan mampu mengukur variabel penelitian dengan baik.
+Uji validitas dilakukan untuk mengetahui apakah item pertanyaan dalam kuesioner mampu mengukur variabel penelitian dengan baik. Suatu item dikatakan valid apabila item tersebut mampu merepresentasikan konsep yang ingin diukur dalam penelitian.
 
-Hasil pengujian menunjukkan bahwa seluruh item pertanyaan memiliki korelasi positif terhadap skor total sehingga item pertanyaan dinyatakan valid.
+Pengujian validitas dilakukan menggunakan korelasi Pearson antara skor masing-masing item dengan skor total. Semakin tinggi nilai korelasi suatu item terhadap skor total, maka semakin baik item tersebut dalam mengukur variabel penelitian.
+
+| Item | r hitung | Keterangan |
+|---|---|---|
+| x1 | 0.824 | Valid |
+| x2 | 0.810 | Valid |
+| x3 | 0.813 | Valid |
+| x4 | 0.673 | Valid |
+| x5 | 0.700 | Valid |
+| x6 | 0.794 | Valid |
+
+Berdasarkan hasil pengujian validitas, seluruh item pertanyaan memiliki nilai korelasi positif terhadap skor total. Nilai korelasi masing-masing item berada di atas 0,60 sehingga seluruh item dinyatakan valid.
+
+Variabel x1 memiliki nilai korelasi tertinggi sebesar 0,824 yang menunjukkan bahwa item mengenai kemudahan akses Google Scholar memiliki hubungan yang sangat kuat terhadap kepuasan mahasiswa secara keseluruhan. Hal ini menunjukkan bahwa kemudahan akses merupakan salah satu faktor utama yang memengaruhi kepuasan mahasiswa dalam menggunakan Google Scholar.
+
+Variabel x2 dan x3 juga memiliki nilai korelasi yang tinggi, yaitu masing-masing sebesar 0,810 dan 0,813. Hasil ini menunjukkan bahwa kemudahan mencari jurnal dan kecepatan hasil pencarian menjadi aspek penting dalam penggunaan Google Scholar sebagai media pencarian referensi ilmiah.
+
+Sementara itu, variabel x4 memiliki nilai korelasi paling rendah dibandingkan item lainnya, yaitu sebesar 0,673. Namun nilai tersebut masih berada pada kategori valid sehingga item mengenai kesesuaian hasil pencarian tetap mampu mengukur variabel penelitian dengan baik.
+
+Secara keseluruhan, hasil uji validitas menunjukkan bahwa seluruh item pertanyaan dalam kuesioner telah mampu mengukur tingkat kepuasan mahasiswa terhadap penggunaan Google Scholar secara tepat dan konsisten.
 
 ---
 
 ## Uji Reliabilitas
 
-Uji reliabilitas dilakukan menggunakan metode Cronbach Alpha.
+Uji reliabilitas dilakukan untuk mengetahui tingkat konsistensi instrumen penelitian. Instrumen yang reliabel menunjukkan bahwa item pertanyaan memiliki kestabilan dan konsistensi yang baik dalam mengukur variabel penelitian.
 
-Hasil pengujian menunjukkan bahwa nilai Cronbach Alpha berada di atas 0,70 sehingga instrumen penelitian dinyatakan reliabel dan memiliki konsistensi yang baik.
+Pengujian reliabilitas dilakukan menggunakan metode Cronbach Alpha. Suatu instrumen penelitian umumnya dikatakan reliabel apabila memiliki nilai Cronbach Alpha lebih besar dari 0,70.
 
----
+| Cronbach Alpha | Keterangan |
+|---|---|
+| 0.860 | Reliabel |
+
+Berdasarkan hasil pengujian diperoleh nilai Cronbach Alpha sebesar 0,860. Nilai tersebut menunjukkan bahwa instrumen penelitian memiliki tingkat reliabilitas yang tinggi karena berada jauh di atas batas minimum 0,70.
+
+Nilai reliabilitas yang tinggi menunjukkan bahwa item-item pertanyaan dalam kuesioner memiliki konsistensi internal yang baik. Artinya, jawaban responden pada setiap item cenderung stabil dan saling mendukung dalam mengukur tingkat kepuasan mahasiswa terhadap penggunaan Google Scholar.
+
+Selain itu, hasil analisis juga menunjukkan bahwa tidak terdapat item yang secara signifikan menurunkan nilai reliabilitas apabila dihapus. Hal ini menunjukkan bahwa seluruh item pertanyaan memiliki kontribusi yang baik terhadap konsistensi instrumen penelitian.
+
+Dengan demikian, dapat disimpulkan bahwa instrumen penelitian yang digunakan telah memenuhi syarat reliabilitas dan layak digunakan dalam penelitian mengenai tingkat kepuasan mahasiswa terhadap penggunaan Google Scholar dalam pencarian jurnal ilmiah.
 
 # Kesimpulan
 
