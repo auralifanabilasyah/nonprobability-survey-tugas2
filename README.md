@@ -1,4 +1,4 @@
-# NONPROBABILITY SURVEY
+# NONPROBABILITY SURVEY TUGAS 2
 
 # Survei Tingkat Kepuasan Mahasiswa Program Studi Statistika terhadap Penggunaan Google Scholar dalam Pencarian Jurnal Ilmiah
 
@@ -36,44 +36,6 @@ Teknik sampling yang digunakan adalah non probability sampling dengan metode con
 
 Jumlah populasi dalam penelitian ini sebanyak 154 mahasiswa. Penentuan jumlah sampel dilakukan menggunakan rumus Slovin dengan tingkat kesalahan 15%.
 
-## Perhitungan Rumus Slovin
-
-Rumus Slovin digunakan untuk menentukan jumlah sampel minimum dari suatu populasi.
-
-### Rumus Slovin
-
-```text
-n = N / (1 + N(e²))
-```
-
-Keterangan:
-- n = jumlah sampel
-- N = jumlah populasi
-- e = tingkat kesalahan
-
-Diketahui:
-- N = 154
-- e = 15% = 0,15
-
-### Perhitungan
-
-```text
-n = 154 / (1 + 154(0,15²))
-
-n = 154 / (1 + 154(0,0225))
-
-n = 154 / (1 + 3,465)
-
-n = 154 / 4,465
-
-n = 34,49
-```
-
-Berdasarkan hasil perhitungan menggunakan rumus Slovin diperoleh jumlah sampel minimal sebanyak 34,49 responden. Karena jumlah sampel harus berupa bilangan bulat, maka jumlah sampel dibulatkan menjadi 35 responden.
-
-Pengolahan data dilakukan menggunakan bahasa pemrograman R dengan bantuan package `readxl` dan `psych`.
-
----
 
 # Variabel Penelitian
 
@@ -206,6 +168,23 @@ w <- prop_pop/prop_sample
 
 w
 ```
+
+---
+
+## 9. Perhitungan Rumus Slovin
+
+Rumus Slovin digunakan untuk menentukan jumlah sampel minimum dari suatu populasi.
+
+### Rumus Slovin
+
+```text
+n = N / (1 + N(e²))
+```
+
+Keterangan:
+- n = jumlah sampel
+- N = jumlah populasi
+- e = tingkat kesalahan
 
 ---
 
@@ -342,6 +321,27 @@ w = 3,401
 Hasil ini menunjukkan bahwa terdapat ketidakseimbangan proporsi sampel sehingga pembobotan diperlukan agar hasil estimasi lebih representatif terhadap populasi.
 
 ---
+## rumus slovin
+Diketahui:
+- N = 154
+- e = 15% = 0,15
+
+### Perhitungan
+
+```text
+n = 154 / (1 + 154(0,15²))
+
+n = 154 / (1 + 154(0,0225))
+
+n = 154 / (1 + 3,465)
+
+n = 154 / 4,465
+
+n = 34,49
+```
+
+Berdasarkan hasil perhitungan menggunakan rumus Slovin diperoleh jumlah sampel minimal sebanyak 34,49 responden. Karena jumlah sampel harus berupa bilangan bulat, maka jumlah sampel dibulatkan menjadi 34 responden.
+
 
 ## Uji Validitas
 
@@ -374,7 +374,3 @@ Berdasarkan hasil analisis data yang telah dilakukan, dapat disimpulkan bahwa:
 5. Hasil uji validitas menunjukkan bahwa seluruh item pertanyaan valid, sedangkan hasil uji reliabilitas menunjukkan bahwa instrumen penelitian reliabel.
 
 ---
-
-# Penutup
-
-Penelitian ini memberikan gambaran mengenai pengalaman mahasiswa dalam menggunakan Google Scholar sebagai sumber referensi akademik. Hasil penelitian dapat digunakan sebagai bahan evaluasi dalam meningkatkan kualitas pencarian literatur ilmiah di masa mendatang.
