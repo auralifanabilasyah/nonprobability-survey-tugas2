@@ -168,10 +168,33 @@ w <- prop_pop/prop_sample
 
 w
 ```
+## 9. Grafik Perbandingan Hasil Estimasi
 
+### Syntax R
+
+```r
+# Data estimasi
+estimasi <- c(76.47, 3.401)
+
+# Membuat grafik
+barplot(
+  estimasi,
+  names.arg = c("Naive Estimation", "Weighting"),
+  col = c("lightblue", "lightgreen"),
+  main = "Perbandingan Hasil Estimasi",
+  ylab = "Nilai"
+)
+
+# Menambahkan label nilai
+text(
+  x = c(0.7, 1.9),
+  y = estimasi + 3,
+  labels = round(estimasi,2)
+)
+```
 ---
 
-## 9. Perhitungan Rumus Slovin
+## 10. Perhitungan Rumus Slovin
 
 Rumus Slovin digunakan untuk menentukan jumlah sampel minimum dari suatu populasi.
 
@@ -188,7 +211,7 @@ Keterangan:
 
 ---
 
-## 9. Uji Validitas
+## 11. Uji Validitas
 
 ```r
 library(psych)
@@ -207,7 +230,7 @@ cor(item$x6, score_total)
 
 ---
 
-## 10. Uji Reliabilitas
+## 12. Uji Reliabilitas
 
 ```r
 alpha(item)
@@ -265,7 +288,7 @@ Sementara itu, nilai standard deviation yang relatif kecil menunjukkan bahwa jaw
 
 ### Grafik Jenis Kelamin
 
-![Grafik Gender](output/grafik-gender.png)
+![Grafik Gender](output/grafik-distribusi-jenis-kelamin.png)
 
 Grafik menunjukkan bahwa jumlah responden perempuan lebih mendominasi dibandingkan laki-laki.
 
@@ -273,7 +296,7 @@ Grafik menunjukkan bahwa jumlah responden perempuan lebih mendominasi dibandingk
 
 ### Grafik Semester
 
-![Grafik Semester](output/grafik-semester.png)
+![Grafik Semester](output/grafik-distribusi-semester.png)
 
 Grafik menunjukkan bahwa mayoritas responden berasal dari semester 4.
 
@@ -316,6 +339,16 @@ Perbandingan estimasi dilakukan untuk melihat perbedaan hasil antara naive estim
 Berdasarkan hasil analisis, naive estimation menunjukkan bahwa sebesar 76,47% mahasiswa merasa puas terhadap penggunaan Google Scholar dalam pencarian jurnal ilmiah. Sementara itu, hasil weighting sederhana sebesar 3,401 menunjukkan adanya ketidakseimbangan distribusi responden berdasarkan jenis kelamin.
 
 Perbedaan tersebut menunjukkan bahwa distribusi sampel yang tidak seimbang dapat memengaruhi hasil estimasi penelitian. Oleh karena itu, weighting digunakan untuk membantu memperoleh hasil estimasi yang lebih representatif terhadap populasi sebenarnya.
+
+### Hasil Grafik
+
+![Grafik Estimasi](output/grafik-perbandingan-hasil-estimasi.png)
+
+### Pembahasan
+
+Grafik perbandingan hasil estimasi menunjukkan bahwa nilai naive estimation sebesar 76,47%, sedangkan hasil weighting sederhana sebesar 3,401. Hasil naive estimation menunjukkan proporsi mahasiswa yang merasa puas terhadap penggunaan Google Scholar dalam pencarian jurnal ilmiah.
+
+Sementara itu, weighting sederhana digunakan untuk mengurangi bias akibat ketidakseimbangan distribusi responden berdasarkan jenis kelamin. Nilai weighting sebesar 3,401 menunjukkan bahwa proporsi responden laki-laki dalam sampel lebih kecil dibandingkan proporsi populasi sehingga diperlukan pembobotan agar hasil estimasi lebih representatif terhadap populasi sebenarnya.
 
 ------
 ## rumus slovin
